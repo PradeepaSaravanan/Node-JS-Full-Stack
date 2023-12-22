@@ -1,0 +1,39 @@
+.table{
+    display: table;
+    margin-left: 10%;
+    margin-top: 5%;
+   
+}
+.header{
+    display: table-header-group;
+    background-color: rgb(189, 189, 228);
+    font-size: large;
+    font-family:  'Calibri';
+}
+.data{
+    display: table-cell;
+    padding:20px;
+    font-size: large;
+    font-family:  'Calibri';
+    
+    
+}
+.row-group{
+    display: table-row-group;
+    
+}
+.row{
+    display: table-row;
+}
+.row:nth-child(odd){
+    background-color: aqua;
+}
+.row:nth-child(even){
+    background-color: rgb(241, 220, 193);
+}
+.data1{
+    display: table-cell;
+    font-weight:bolder;
+    padding:20px;
+    
+}

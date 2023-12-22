@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Design</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <div class="formhead">
+                <span style="font-weight: bolder;font-size: 30px;">Job Application Form</span><br>
+                <span>Please Fill Out the Form Below to Submit Your Job Application!</span>
+            </div>
+            <!--***********-->
+            <hr style="color: white;">
+            <div class="row">
+                <label class="labels" for="Name">Name <span style="color: red;">*</span></label><br>
+
+                <input class="input" type="text" id="name" required />
+                <input class="input" type="text" id="name" required />
+                <span class="des" style="padding-right: 285px;">FirstName</span> <span class="des">Last Name</span>
+            </div>
+            <!--***********-->
+            <div class="row">
+                <label style=" padding-right: 273px;" class="labels" for="Name">Email <span
+                        style="color: red;">*</span></label>
+                <label style="margin-left: 2%;"class="labels" for="Name">Phone Number <span style="color: red;">*</span></label><br>
+                <input class="input" id="xyz" type="email" id="name" placeholder="ex:myname@example.com" required />
+                <input class="input" type="tel" id="name" placeholder="000-000-0000" required />
+                <span class="des" style="padding-right: 267px;">example@example.com</span>
+            </div>
+            <!--***********-->
+
+            <div class="row">
+
+                <label class="labels">Gender</label> <br>
+                <input class="radio" type="radio" id="g1" name="male">
+                <label class="labels1">Male</label> <br>
+                <input class="radio" type="radio" id="g2" name="female">
+                <label class="labels1">Female</label> <br>
+                <input class="radio" type="radio" id="g3" name="Transgender">
+                <label class="labels1">Transgender</label> <br>
+            </div>
+            <!--***********-->
+            <div class="row">
+                <label class="labels">Cuurent City</label> <br>
+                <select class="input" name=" city" id="select">
+                    <option  value="select"> Please Select</option>
+                    <option value="TN"> TamilNadu</option>
+                    <option value="KN"> Karnataka</option>
+                    <option value="KL"> Kerala</option>
+                    <option value="AP"> Andhra Pradesh</option>
+                </select>
+            </div>
+
+            <!--******************************-->
+            <div class="row">
+                <label style=" padding-right: 214px;" class="labels" for="Name">Applied Position</label>
+                <label class="labels" for="Name">Earliest Possible day</label><br>
+                <input class="input" type="email" id="position" required>
+                <input class="input" type="date" id="dt" min="2020-01-07" max="2024-08-19" required />
+                <span class="des" style="margin-left: 38%;">Date</span>
+            </div>
+
+            
+            <!--**********-->
+            <div class="row" id="disp">
+                <div>
+                    <label class="labels"  for="Name">Preferred Interview Date</label><br>
+
+                    <input class="input" type="date" id="dt1" required>
+                </div>
+                <div class="right">
+                    <p style="margin-left: 3%;">Monday,March 27 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                        <span class="icon"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></span>
+                        <span class="icon"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
+
+
+                    </p>
+                    <div class="box">
+                        <div class="box1">
+                            11.30 AM
+                        </div>
+                        <div class="box1">
+                            12.30 PM
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <div class="box1">
+                            1.30 PM
+                        </div>
+                        <div class="box1">
+                            4.30 PM
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <div class="box1">
+                            5.30 AM
+                        </div>
+                        <div class="box1">
+                            6.30 PM
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+          <!--*****************-->
+          <div class="row">
+            <h2>Upload Resume<span style="color:red">*</span></h2>
+             <div class="row1">
+                <span class="row2"><i class="fa fa-cloud-upload" aria-hidden="true"></i></span>
+                <h2>Upload a file</h2>
+                <p style="color: rgb(165, 163, 163); font-size: 18px;">Drag and drop files here</p>
+             </div>
+          </div>
+
+       <hr style="color:white">
+       <div>
+        <button> Apply</button>
+       </div>
+
+        </div>
+
+    </form>
+</body>
+
+</html>

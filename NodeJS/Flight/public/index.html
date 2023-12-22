@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./JS/bookingscript.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div id="flights"></div>
+
+    <br><br>
+
+    <div id='book'>
+        <div class="blocks">
+            <!-- <div class="block" id="details">
+              this is Pandaaaa!!! 
+        </div>  -->
+            <!-- <div class="block"> -->
+            <form action="#" id="addCustomer" >
+                <div class="form">
+                    <div class="block" >
+                        <div class="fileds">
+                        <label for="flightNumber">Flight Number</label><br>
+                        <input type="text" name="flight_number" id="flightNumber" readonly>
+                    </div >
+                    <div class="fileds">
+                        <label for="source"> Source</label><br>
+                        <input type="text" name="Source" id="source" readonly>
+                    </div>
+                    <div class="fileds">
+                        <label for="destination">Destination </label><br>
+                        <input type="text" name="Destination" id="destination" readonly>
+                    </div>
+                    <div class="fileds">
+                        <label for="arrivalTime"> Arrival Time</label><br>
+                        <input type="text" name="Arrival Time" id="arrivalTime" readonly>
+                    </div>
+                    
+                    
+                    <div class="fileds">
+                        <label for="departureTime"> Departure Time</label><br>
+                        <input type="text" name="Arrival Time" id="departureTime" readonly>
+                    </div>
+                    <div class="fileds">
+                        <label for="price">Price</label><br>
+                        <input type="number" name="Price" id="price" readonly>
+                    </div>
+                    </div>
+                    <div class="block">
+
+                        <div class="fileds">
+                            <label for="txtName"> Name</label><br>
+                            <input type="text" id="txtName" placeholder="Enter Name">
+                        </div>
+                        <div class="fileds">
+                            <label for="txtAge"> Age</label><br>
+                            <input type="number" id="txtAge" placeholder="Enter Age"><br>
+                        </div>
+                        <div class="fileds">
+                            <label for="txtPhone">Phone Number</label><br>
+                            <input type="number" id="txtPhone" placeholder="mobile"> <br>
+                        </div>
+                        <div class="fileds">
+                            <label for="txtAadhar">Aadhar Number</label><br>
+                            <input type="number" id="txtAadhar" placeholder="Enter Aadhar"> <br>
+                        </div>
+                        <div class="fileds">
+                            <label for="txtPassport"> Passportnumber</label><br>
+                            <input type="text" id="txtPassport" placeholder="Enter Passportnumber"> <br>
+                        </div>
+                        <div class="fileds">
+                            <label for="txtEmail">Email</label><br>
+                            <input type="email" id="txtEmail" placeholder="enter email">
+                        </div>
+                        <!-- <div>
+                            <button type="submit" onclick="showTicket()"> Confirm </button>
+
+                        </div> -->
+
+
+                    </div>
+                    
+                </div>
+                <div  >
+                  <center>  <button class="btn-btn-primary"  type="submit" onclick="confirm()" > Confirm </button></center>
+                </div>
+            </form>
+
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <div id="shwTicket">
+
+    </div>
+
+
+</body>
+
+</html>

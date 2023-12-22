@@ -1,0 +1,92 @@
+.container{
+    width: 40%;
+    height: 800 px;
+    
+   background-color: white;
+    margin-left: 30%;
+    border-radius: 5px;
+    margin-top: 7%;
+
+}
+
+body{
+    background-color:rgb(236, 231, 226);
+}
+
+  label{
+    padding-bottom: 20px;
+  }
+ hr {
+ color:white
+  }
+  .EP1{
+    margin-left:26px;
+    margin-top:10px;
+    border:none;
+    outline: none; 
+    font-family:  'Calibri';
+  }
+  .EP{
+    margin-left:15px;
+    margin-top:10px;
+    border:none;
+    outline: none; 
+    font-family:  'Calibri';
+    text-align: center;
+    padding-bottom:3px;
+    margin-bottom: 3px;
+  }
+  
+  .btn{
+    margin-left:55%;
+    margin-bottom:10%;
+    padding:20px;
+  }
+  .box{
+    width:800px;
+    height:100px;
+  }
+    
+ #btn1{
+    height:40px;
+    width:80px;
+    background-color:gray;
+    color:white;
+    border-radius: 5px;
+    border: none;
+ }
+ #btn2{
+    height:40px;
+    width:80px;
+    background-color:rgb(40, 40, 243);
+    color:white;
+    border-radius: 5px;
+    border: none;
+ }
+ .icon{
+    display: flex;
+    border:2px solid grey;
+    margin-left:5%;
+    width: 55%;
+    border-radius: 5px;
+    margin-top: 2%;
+ }
+ .mailicon{
+    padding:4px 0px 0px 8px;
+    font-size: 20px;
+    background-color: darkgrey;
+    width:15%
+ }
+ i{
+    padding: 2px 1px 1px 2px;
+ }
+ input[type="email"]::placeholder{
+    text-align: center;
+ }
+ #xicon{
+    margin-left: 80%;
+ }
+ 
+
+
+  

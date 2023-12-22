@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Design</title>
+    <link rel="stylesheet" href="./CSS/basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/js/main.js"></script>
+</head>
+
+<body>
+    <form action="#"  onsubmit=" return validate()">
+        <div class="container">
+            <div class="formhead">
+                <span style="font-weight: bolder;font-size: 30px;">Job Application Form</span><br>
+                <span>Please Fill Out the Form Below to Submit Your Job Application!</span>
+            </div>
+            <!--***********-->
+            <hr style="color: white;">
+
+           
+
+
+
+
+
+
+
+
+
+
+            <div class="row">
+                <label class="labels" for="Name">Name <span style="color: red;">*</span></label><br>
+
+                <input type="text" id="firstName" class="input" required />
+                <input  type="text" id="lastName" class="input" required /> <br>
+                <span class="des" style="padding-right: 135px;">FirstName</span> <span class="des">Last Name</span>
+            </div>
+            <!--***********-->
+            <div class="row">
+                <label style=" padding-right: 120px;" class="labels" for="Name">Email <span
+                        style="color: red;">*</span></label>
+                <label style="margin-left: 2%;"class="labels" for="Name">Phone Number <span style="color: red;">*</span></label><br>
+
+                <input  type="text" id="mail"  class="input" placeholder="ex:myname@example.com" required />
+                <input  type="text" id="mobile" class="input" placeholder="000-000-0000" required /> <br>
+                <span class="des" style="padding-right: 267px;">example@example.com</span>
+            </div>
+            <!--***********-->
+
+            <div class="row">
+                <h3>Gender</h3>
+                <input class="radio" type="radio" id="g1" name="Gender" value="Male">
+                <label for="Male">Male</label> <br>
+                <input class="radio" type="radio" id="g2" name="Gender" value="Female">
+                <label for="Female">Female</label> <br>
+                <input class="radio" type="radio" id="g3" name="Gender" value="Transgender">
+                <label for="Transgender">Transgender</label> <br>
+            </div>
+            <!--***********-->
+            <div class="row">
+                <label class="labels">Curent City</label> <br>
+                <select class="input" name="city" id="select">
+                    <option  value="select" > Please Select</option>
+                    <option value="TamilNadu"> TamilNadu</option>
+                    <option value="Karnataka"> Karnataka</option>
+                    <option value="Kerala"> Kerala</option>
+                    <option value="Andhra Pradesh"> Andhra Pradesh</option>
+                </select>
+            </div>
+
+            <!--******************************-->
+            <div class="row">
+                <label style=" padding-right: 60px;" class="labels" for="Name">Applied Position</label>
+                <label class="labels" for="Name">Earliest Possible day</label><br>
+                <input class="input" type="text" id="position" required>
+                <input class="input" type="date" id="earlyDate" min="2020-01-07" max="2024-08-19" required /><br>
+                <span class="des" style="margin-left: 26%;">Date</span>
+            </div>
+
+            
+            <!--**********-->
+            <div class="row" id="disp">
+                <div>
+                    <label class="labels"  for="Name">Preferred Interview Date</label><br>
+
+                    <input class="input" type="date" id="preferDt" required>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <div class="box1" >
+                            <input type="radio" name="time" value="11.30AM"  id="time1"> 
+                            <label  for="time1">11.30AM</label>
+                        </div>
+                        <div class="box1" >
+                            <input type="radio" name="time" value="12.30 APM" class="timings" id="time2">
+                            <label for="time2">12.30PM</label>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <div class="box1" >
+                            <input type="radio" name="time" value="1.30 PM" class="timings" id="time3">
+                             <label for="time3">1.30PM</label>
+                        </div>
+                        <div class="box1" >
+                            <input type="radio" name="time" value="4.30 PM" class="timings" id="time4">
+                            <label for="time4">4.30PM</label>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <div class="box1" >
+                            <input type="radio" name="time" value="5.30 PM" class="timings" id="time6"> 
+                            <label for="time6">5.30PM</label>
+                        </div>
+                        <div class="box1" >
+                            <input type="radio" name="time" value="6.30 PM" class="timings" id="time5">
+                            <label for="time5">6.30PM</label>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="box">
+                        <span class="box1" onclick="localStorage.setItem('Time', '11.30 AM');">
+                            11.30 AM
+                        </span>
+                        <span class="box1" onclick="localStorage.setItem('Time', '12.30 PM');">
+                            12.30 PM
+                        </span>
+
+                    </div>
+                    <div class="box">
+                        <span class="box1" onclick="localStorage.setItem('Time', '1.30 PM');">
+                            1.30 PM
+                        </span>
+                        <span class="box1" onclick="localStorage.setItem('Time', '4.30 PM');">
+                            4.30 PM
+                        </span>
+
+                    </div>
+                    <div class="box">
+                        <span class="box1" onclick="localStorage.setItem('Time', '5.30 AM');">
+                            5.30 AM
+                        </span>
+                        <span class="box1" onclick="localStorage.setItem('Time', '6.30 PM');">
+                            6.30 PM
+                        </span>
+
+                    </div> -->
+
+
+                </div>
+
+            </div>
+          <!--*****************-->
+          <div class="row">
+            <h2>Upload Resume<span style="color:red">*</span></h2>
+             <div class="row1">
+                <span class="row2"><i class="fa fa-cloud-upload" aria-hidden="true"></i></span>
+                <h2>Upload a file</h2>
+                <p style="color: rgb(165, 163, 163); font-size: 18px;">Drag and drop files here</p>
+             </div>
+          </div>
+
+       <hr style="color:white">
+       <div>
+        <button> Apply</button>
+       </div>
+
+        </div>
+
+    </form>
+</body>
+
+</html>

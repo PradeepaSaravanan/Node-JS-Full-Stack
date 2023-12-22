@@ -1,0 +1,19 @@
+#book{
+    display: none;
+    border: 20px solid ;
+    
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.block{
+    width: 40%;
+    margin:5%
+}
+.fileds{
+    margin: 3%;
+}
+.btn{
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+(22-Sep-2023  4:08:07 PM  )Initializing M4File on Mon Dec 10 11:24:39 2003
+(22-Sep-2023  4:08:07 PM  )Searching for previous journal files
+(22-Sep-2023  4:08:07 PM  )Processing c:\your_journal\M4F150.txt:
+(22-Sep-2023  4:08:07 PM  ) output was written: c:\out\wally.10104
+(22-Sep-2023  4:08:07 PM  ) input not found: c:\stage\wal850.10104
+(22-Sep-2023  4:08:07 PM  ) removed journal file 
+(22-Sep-2023  4:08:07 PM  )Processing c:\your_journal\M4F172.txt:
+(22-Sep-2023  4:08:07 PM  ) output was written: c:\out\wally.10120
+(22-Sep-2023  4:08:07 PM  ) input found with same size and time stamp -- removing: c:\stage\wal850.10120.
+(22-Sep-2023  4:08:07 PM  ) removed journal file 
+(22-Sep-2023  4:08:07 PM  )Processing c:\your_journal\M4F211.txt:
+(22-Sep-2023  4:08:07 PM  ) output c:\out\wally.10150 not written.  removing tmp file: c:\out\Merd3.tmp
+(22-Sep-2023  4:08:07 PM  ) removed journal file 
+(22-Sep-2023  4:08:07 PM  )Processing c:\your_journal\M4F213.txt:
+(22-Sep-2023  4:08:07 PM  ) 0 byte journal file...
+(22-Sep-2023  4:08:07 PM  ) removed journal file 
+(22-Sep-2023  4:08:07 PM  )Processed 4 journal files

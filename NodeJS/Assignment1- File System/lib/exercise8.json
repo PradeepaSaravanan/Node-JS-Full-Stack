@@ -1,0 +1,16 @@
+ [{
+    "empid":1,
+    "Age":23,
+    "salary":23000
+},
+{
+    "empid":4,
+    "Age":24,
+    "salary":24000
+},
+{
+    "empid":2,
+    "Age":26,
+    "salary":67000
+}]
+

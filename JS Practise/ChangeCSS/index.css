@@ -1,0 +1,27 @@
+/* .demo2{
+    height: 30px;
+    background-color: antiquewhite;
+} */
+.new-class{
+    color :greenyellow;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+  }
+
+  #p1{
+    background-color: aqua !important;
+  }
+
+  /* p{
+    background-color: blueviolet;
+    font-size: 50px;
+    background-color: aqua !important;
+  } */

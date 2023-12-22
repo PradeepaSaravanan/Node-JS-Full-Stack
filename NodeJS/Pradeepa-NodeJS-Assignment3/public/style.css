@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(221, 221, 212);
+}
+
+/* Header*/
+.nav {
+
+    background-color: rgb(139, 172, 233);
+    height: auto;
+    width: 100%;
+
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    border: none;
+    margin: 0px;
+    background-color: rgb(139, 172, 233);
+    transition: all 0s;
+    color:brown;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.btn {
+    margin-left: 70%;
+}
+
+button:hover {
+    background-color: rgb(37, 236, 54);
+
+}
+
+/* Home   */
+#home{
+    display: flex;
+    flex-direction: row;
+}
+.right
+{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+
+/* About*/ 
+.about{
+    font-family: monospace;
+}
+.right1
+{
+    margin-left: 5%;
+    
+}
+
+/* Project   */
+.project{
+    display: flex;
+    flex-direction: row; 
+    border:1px solid darkgray;
+    border-radius: 5px;
+    margin: 7px;
+}
+.rightp{
+    margin-left: 2%;
+}
+/* Contact*/
+#contact{
+    display: flex;
+    flex-direction: row;
+}
+.rightc{
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.Clogo{
+    font-size: 25px;
+    background-color: black;
+    color:white;
+    border-radius:45px;
+   padding:7px;
+   margin-top:10px
+}
+.c1{
+    margin:30px;
+}
+/* FOOTER                             */
+footer{
+    background-color:rgb(69, 69, 192) ;
+    height:30px;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.logo{background-color: white;
+    font-size: 30px;
+    margin:5px;
+}
+.foot{
+    background-color:rgb(108, 108, 163) ;
+}
+
+

@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color:blue;
+    
+}
+
+.card {
+    background-color:#ADD8E6;
+    margin: 20px;
+    border: 2px solid blue ;
+    height:150PX;
+    width: 150PX;
+    padding: 70px 10px 10px 50px ;
+    
+    
+    
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+#c1:hover{
+    background-color: blue;
+    cursor: grab;
+}
+#c2:hover{
+    background-color:yellow;
+    cursor: grab;
+}
+#c3:hover{
+    background-color:pink;
+    cursor: grab;
+}
+#c4:hover{
+    background-color:green;
+    cursor: grab;
+}
+
+
+
+
+
